@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3427BD6A21006E4100D9CD7A /* WeatherAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427BD6921006E4100D9CD7A /* WeatherAggregate.swift */; };
+		342ACE8620FFB76000DDA748 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ACE8520FFB76000DDA748 /* API.swift */; };
+		342ACE8E20FFD4F100DDA748 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ACE8D20FFD4F100DDA748 /* ListViewController.swift */; };
+		342ACE9020FFD95300DDA748 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ACE8F20FFD95300DDA748 /* Weather.swift */; };
 		3457020E20FFB357001469AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457020D20FFB357001469AB /* AppDelegate.swift */; };
 		3457021020FFB357001469AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457020F20FFB357001469AB /* ViewController.swift */; };
 		3457021320FFB357001469AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3457021120FFB357001469AB /* Main.storyboard */; };
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3427BD6921006E4100D9CD7A /* WeatherAggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAggregate.swift; sourceTree = "<group>"; };
+		342ACE8520FFB76000DDA748 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		342ACE8D20FFD4F100DDA748 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		342ACE8F20FFD95300DDA748 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		344A787620FFDEA500938402 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3457020A20FFB357001469AB /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3457020D20FFB357001469AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3457020F20FFB357001469AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		344A787520FFDEA500938402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				344A787620FFDEA500938402 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3457020120FFB357001469AB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,7 @@
 				3457022120FFB357001469AB /* WeatherTests */,
 				3457022C20FFB357001469AB /* WeatherUITests */,
 				3457020B20FFB357001469AB /* Products */,
+				344A787520FFDEA500938402 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				3457020D20FFB357001469AB /* AppDelegate.swift */,
+				3427BD6921006E4100D9CD7A /* WeatherAggregate.swift */,
+				342ACE8F20FFD95300DDA748 /* Weather.swift */,
+				342ACE8520FFB76000DDA748 /* API.swift */,
+				342ACE8D20FFD4F100DDA748 /* ListViewController.swift */,
 				3457020F20FFB357001469AB /* ViewController.swift */,
 				3457021120FFB357001469AB /* Main.storyboard */,
 				3457021420FFB357001469AB /* Assets.xcassets */,
@@ -260,7 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3457021020FFB357001469AB /* ViewController.swift in Sources */,
+				3427BD6A21006E4100D9CD7A /* WeatherAggregate.swift in Sources */,
+				342ACE9020FFD95300DDA748 /* Weather.swift in Sources */,
 				3457020E20FFB357001469AB /* AppDelegate.swift in Sources */,
+				342ACE8E20FFD4F100DDA748 /* ListViewController.swift in Sources */,
+				342ACE8620FFB76000DDA748 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
